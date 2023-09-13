@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+    .column {
+        text-align: center;
+        width: 20%;
+        padding: 5px;
+    }
+
+    /* Clear floats after image containers */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .image-content {
+        margin-top: 10px; /* Add spacing between the image and the content */
+    }
+</style>
+
+<div class="text-center">
+    <p style="font-size:large">
+        Show me a family of readers, and I will show you the people who move the world
+    </p>
+    <p style="font-weight: bold"><cite>-Napoleon Bonaparte</cite></p>
+
+    <div class="row">
+        <div class="column">
+            <a href="https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude" target="_blank">
+                <img src="~/img/one-hundred-years-of-solitude.jpg" alt="One Hundred Years of Solitude" style="width: 100px"/>
+            </a>
+            <div class="image-content">
+                <p>Gabriel García Márquez</p>
+            </div>
+        </div>
+        <div class="column">
+            <a href="https://en.wikipedia.org/wiki/Crime_and_Punishment" target="_blank">
+                <img src="~/img/crime-and-punishment.jpg" style="width: 100px" />
+            </a>
+            <div class="image-content">
+                <p>Fyodor Dostoevsky</p>
+            </div>
+        </div>
+        <div class="column">
+            <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings" target="_blank">
+                <img src="~/img/the-lord-of-the-rings.jpg" style="width: 100px" />
+            </a>
+            <div class="image-content">
+                <p>J. R. R. Tolkien</p>
+            </div>
+        </div>
+        <div class="column">
+            <a href="https://en.wikipedia.org/wiki/Hamlet" target="_blank">
+                <img src="~/img/hamlet.jpg" style="width: 100px" />
+            </a>
+            <div class="image-content">
+                <p>William Shakespeare</p>
+            </div>
+        </div>
+        <div class="column">
+            <a href="https://en.wikipedia.org/wiki/Nineteen_Eighty-Four" target="_blank">
+                <img src="~/img/1984.jpg" style="width: 100px" />
+            </a>
+            <div class="image-content">
+                <p>George Orwell</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <a href="https://en.wikipedia.org/wiki/Dune_(novel)" target="_blank">
+                <img src="~/img/dune.jpg" style="width: 100px" />
+            </a>
+            <div class="image-content">
+                <p>Frank Herbert</p>
+            </div>
+        </div>
+        <div class="column">
+            <a href="https://en.wikipedia.org/wiki/War_and_Peace" target="_blank">
+                <img src="~/img/war-and-peace.jpg" style="width: 100px" />
+            </a>
+            <div class="image-content">
+                <p>Leo Tolstoy</p>
+            </div>
+        </div>
+        <div class="column">
+            <a href="https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables" target="_blank">
+                <img src="~/img/les-miserables.jpg" style="width: 100px" />
+            </a>
+            <div class="image-content">
+                <p>Victor Hugo</p>
+            </div>
+        </div>
+        <div class="column">
+            <a href="https://en.wikipedia.org/wiki/The_Song_of_Achilles" target="_blank">
+                 <img src="~/img/the-song-of-achilles.jpg" style="width: 100px" />
+            </a>
+            <div class="image-content">
+                <p>Madeline Miller</p>
+            </div>
+        </div>
+        <div class="column">
+            <a href="https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo" target="_blank">
+                <img src="~/img/the-count-of-monte-cristo.jpg" style="width: 100px" />
+            </a>
+            <div class="image-content">
+                <p>Alexander Dumas</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+header {
+
+    background-color: rgb(222,181,34)!important;
+    color: black!important;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+footer {
+    background-color: rgb(222,181,34);
+    color: black;
+}
