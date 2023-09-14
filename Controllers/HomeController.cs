@@ -15,13 +15,8 @@ namespace BookLogApp.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View("~/Views/Index().cshtml");
         }
-
-        /*public IActionResult Privacy()
-        {
-            return View();
-        }*/
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
